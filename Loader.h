@@ -10,21 +10,24 @@
 #include <thread>
 #include <chrono>
 
+#include "Helpers/IO.cpp"
+#include "Helpers/MediaAritmetica.cpp"
+
 #include "Interfaces/IPessoa.cpp"
 #include "Interfaces/IDesempenho.cpp"
 #include "Interfaces/IMain.cpp"
 #include "Interfaces/ITurma.cpp"
 
-#include "Classes/Pessoa.cpp"
-#include "Classes/MediaAritmetica.cpp"
-#include "Classes/Desempenho.cpp"
-#include "Classes/Curso.cpp"
-#include "Classes/Aluno.cpp"
-#include "Classes/AlunoIterator.cpp"
-#include "Classes/Professor.cpp"
-#include "Classes/Turma.cpp"
-#include "Classes/TurmaIterator.cpp"
-#include "Classes/IO.cpp"
-#include "Classes/Main.cpp"
+#include "Entities/Curso.cpp"
+#include "Entities/Pessoa.cpp"
+#include "Entities/Desempenho.cpp"
+#include "Entities/Aluno.cpp"
+#include "Entities/Professor.cpp"
+#include "Entities/Turma.cpp"
+
+#include "Iterators/AlunoIterator.cpp"
+#include "Iterators/TurmaIterator.cpp"
+
+#include "Main.cpp"
 
 #endif
