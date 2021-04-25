@@ -1,11 +1,10 @@
 # Gerenciador de Turmas
-Este gerenciador permite a criação de turmas com seus respectivos alunos. Também permite o registro de notas e o calulo de média para avaliação do desempenho de cada aluno.
+Este gerenciador permite a criação de turmas com seus respectivos alunos. Também permite o registro de notas e o cálculo de média para avaliação do desempenho de cada aluno.
 
 ## Como foi desenvolvido?
 O programa foi desenvolvido utilizando os padrões de projeto 'GOF' abaixo.
 ### Iterator
 É um padrão utilizado para percorrer um determinado conjunto de objetos. As classes AlunoIterator.cpp e TurmaIterator.cpp seguem este padrão. 
-
 ### Adapter
 É um padrão utilizado para adaptar uma classe a outra. A classe Desempenho.cpp segue este padrão.
 
